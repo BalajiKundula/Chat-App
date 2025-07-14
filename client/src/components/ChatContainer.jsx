@@ -19,7 +19,7 @@ const ChatContainer = () => {
       setIsLoading(true);
       const timer = setTimeout(() => {
         setIsLoading(false);
-      }, 4000); // 4 seconds
+      }, 7000); // 4 seconds
       return () => clearTimeout(timer); // Cleanup on unmount or selectedUser change
     }
   }, [selectedUser]);
